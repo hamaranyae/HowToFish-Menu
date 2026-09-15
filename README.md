@@ -61,7 +61,7 @@ Live mod log window with a CLEAR button.
 
 ## 📥 Download
 
-Grab the zip from the **[Releases](https://github.com/hamaranyae/TrickshotMenu/releases)** page:
+Grab the zip from the **[Releases](https://github.com/hamaranyae/HowToFish-Menu/releases)** page:
 
 | Package | Contents |
 | --- | --- |
