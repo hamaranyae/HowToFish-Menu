@@ -1,0 +1,14 @@
+# build output
+bin/
+obj/
+
+# release packages
+dist/
+
+# IDE / OS
+.vs/
+*.user
+*.suo
+
+# local BepInEx runtime (friends can grab this from dist/, not the repo)
+BepInEx/
