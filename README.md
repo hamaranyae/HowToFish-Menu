@@ -4,6 +4,13 @@ An in-game mod menu for **How to Fish** that automates and powers up the 360° t
 
 Built for **BepInEx 6.0.0-be.788** (Unity Mono x64).
 
+## Download
+
+Grab the latest release on the **[Releases](https://github.com/hamaranyae/TrickshotMenu/releases)** page:
+
+- `HowToFish_TrickshotMenu_v2.0.0.zip` — the mod (`BepInEx\plugins\TrickshotMenu\TrickshotMenu.dll` + README + INSTALL guide)
+- `BepInEx_runtime_v6.0.0-be.788.zip` — the BepInEx runtime, only needed if you don't already have BepInEx installed
+
 ---
 
 ## Features
