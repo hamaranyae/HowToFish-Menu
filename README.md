@@ -1,65 +1,79 @@
-# Trickshot Menu
+<p align="center">
+  <img src="assets/banner.png" alt="Trickshot Menu" width="100%">
+</p>
 
-An in-game mod menu for **How to Fish** that automates and powers up the 360° trickshot system, plus casino cheats for the roulette table and the weapon-skin slot machine.
+<p align="center">
+  <b>The all-in-one BepInEx mod menu for How to Fish.</b><br>
+  Auto trickshots · Live roulette predictor · Casino cheats · Stat tracking
+</p>
 
-Built for **BepInEx 6.0.0-be.788** (Unity Mono x64).
+<p align="center">
+  <img src="https://img.shields.io/badge/version-2.0.0-4af0ff?style=flat-square" alt="version">
+  <img src="https://img.shields.io/badge/game-How%20to%20Fish-87ceeb?style=flat-square" alt="game">
+  <img src="https://img.shields.io/badge/framework-BepInEx%206.0.0--be.788-ffd65e?style=flat-square" alt="framework">
+  <img src="https://img.shields.io/badge/platform-Windows%20%7C%20Unity%20Mono-9cf?style=flat-square" alt="platform">
+  <img src="https://img.shields.io/badge/license-MIT-green?style=flat-square" alt="license">
+</p>
 
-## Download
+**Trickshot Menu** is an in-game mod for **_How to Fish_** that automates the 360° trickshot system, chases every bonus multiplier, tracks your session, and adds casino cheats — a live roulette landing predictor, an always-win table, and a weapon-skin slot machine that spits out rare and legendary skins.
 
-Grab the latest release on the **[Releases](https://github.com/hamaranyae/TrickshotMenu/releases)** page:
-
-- `HowToFish_TrickshotMenu_v2.0.0.zip` — the mod (`BepInEx\plugins\TrickshotMenu\TrickshotMenu.dll` + README + INSTALL guide)
-- `BepInEx_runtime_v6.0.0-be.788.zip` — the BepInEx runtime, only needed if you don't already have BepInEx installed
+Want an "aimbot + casino helper" style mod for How to Fish? This is it. Every feature is toggleable, fully rebindable, and explained by an in-game guide.
 
 ---
 
-## Features
+## ✨ Features
 
-### CONTROL — automation & tuning
-| Option | Effect |
+### 🎯 CONTROL — trickshot automation & tuning
+| Option | What it does |
 | --- | --- |
-| Auto Trickshot | automatically spins and fires at launched / free fish in range |
-| Airborne Only | only targets untethered fish — never fires while you are reeling in or wound up close to the reel |
-| Jump For Aerial | jumps before the shot for the **Aerial / Dogfight** bonus |
-| One-Shot Helper | boosts damage so the fish dies in one round (**One Shot One Kill + Overkill**) |
-| Force Last Bullet | loads exactly one round for the **Last Bullet** bonus |
-| Aim Heads | headshot assist for the **Headshot** bonus |
-| Spin Light FX / HUD | cosmetic light-sweep + vignette, and the top-left status card |
-| Sliders | spin speed, spin degrees (style overkill), target lead, max range, combo window |
-| Direction / Weapons | clockwise / counter-clockwise spin; which guns count — PISTOL / SNIPER / SHOTGUN / ALL |
+| **Auto Trickshot** | spins + fires at launched / free fish automatically, in range |
+| **Airborne Only** | only untethered fish — never fires while reeling in or wound up close to the reel |
+| **Jump For Aerial** | jumps before the shot for the *Aerial / Dogfight* bonus |
+| **One-Shot Helper** | huge damage so fish dies in one round (*One Shot One Kill + Overkill*) |
+| **Force Last Bullet** | loads exactly one round for the *Last Bullet* bonus |
+| **Aim Heads** | headshot assist for the *Headshot* bonus |
+| **Sliders** | spin speed, spin degrees, target lead, max range, combo window |
+| **Direction / Weapons** | spin clockwise or counter-clockwise; PISTOL / SNIPER / SHOTGUN / ALL filter |
+| **Spin Light FX / HUD** | cosmetic light-sweep + vignette, and the top-left status card |
 
-### BONUS
-Shows exactly which multipliers (Aerial, Headshot, Last Bullet, risk tiers) are lined up before you pull the trigger.
+### 💎 BONUS
+See exactly which multipliers (Aerial, Headshot, Last Bullet, risk tiers) are lined up *before* you shoot.
 
-### STATS
-Trickshots fired, kills, best combo, best multiplier, estimated earnings, last chain — with a session reset.
+### 📊 STATS
+Trickshots fired, kills, best combo, best multiplier, estimated earnings, last chain — with session reset.
 
-### ROULETTE — live predictor + cheats
-- **Live landing predictor** — reads the exact slot under the ball while the wheel is still spinning.
+### 🎰 ROULETTE — predictor + always-win
+- **Live landing predictor** — shows the exact color under the ball while the wheel still spins.
 - **Always Win Roulette** — the table always pays your bet color: BLACK/RED **x2**, GREEN **x35**.
 
-### SLOT MACHINE — weapon skins
-- **Free Spins** — auto-spins the skin machine while you stand beside it; no fish is deposited or destroyed.
-- **Force Rarity** — every spin lands a marked skin: **RED** (rare-marked) or **GOLD** (legendary-marked) — and it is unlocked for you.
+### 🎲 SLOT MACHINE — weapon skins
+- **Free Spins** — auto-spins the skin machine beside you; nothing is deposited.
+- **Force Rarity** — every spin lands a marked skin: 🔴 RED (rare-marked) or 🟡 GOLD (legendary-marked) — and unlocks it.
 
-### SETTINGS
-- Rebind **every** hotkey (click a key pill, then press the key — ESC cancels).
-- Animated **MOD GUIDE** overlay explaining each function.
+### 🛠 SETTINGS
+- Rebind **every** hotkey (click a key, press the new one, ESC cancels).
+- Animated **Mod Guide** overlay explaining each function.
 
-### LOG
+### 📜 LOG
 Live mod log window with a CLEAR button.
 
 ---
 
-## Install
+## 📥 Download
 
-1. **BepInEx 6.0.0-be.788** (Unity Mono). Either download it from the
-   [BepInEx releases page](https://github.com/BepInEx/BepInEx/releases)
-   (`BepInEx_win_x64_6.0.0-be.788.zip`) or use the bundled runtime zip
-   from the **dist/** folder. Extract it into the folder containing `How to Fish.exe`.
-2. **The mod.** Drop `BepInEx\plugins\TrickshotMenu\TrickshotMenu.dll` into
-   `BepInEx\plugins\TrickshotMenu\` (create the folder if needed).
-3. Launch the game and press **F8** to open the menu.
+Grab the zip from the **[Releases](https://github.com/hamaranyae/TrickshotMenu/releases)** page:
+
+| Package | Contents |
+| --- | --- |
+| `HowToFish_TrickshotMenu_v2.0.0.zip` | the mod (`BepInEx\plugins\TrickshotMenu\TrickshotMenu.dll` + README + INSTALL guide) |
+| `BepInEx_runtime_v6.0.0-be.788.zip` | BepInEx runtime — only if you don't have BepInEx installed yet |
+
+---
+
+## 🚀 Install
+
+1. **BepInEx 6.0.0-be.788 (Unity Mono x64)** — extract the runtime zip (or grab it from the [BepInEx releases](https://github.com/BepInEx/BepInEx/releases)) into the folder containing `How to Fish.exe`.
+2. **The mod** — extract the mod zip into the same folder and let it merge.
 
 Your game folder should look like:
 
@@ -74,31 +88,34 @@ BepInEx\
       TrickshotMenu.dll
 ```
 
+3. Launch the game and press **F8** to open the menu.
+
 Settings are saved to `BepInEx\config\trickshot.howtofish.cfg` on first launch.
 
 ---
 
-## Keybinds (default)
+## ⌨️ Keybinds (default)
 
 | Key | Action |
 | --- | --- |
 | `F8` | open / close the menu |
 | `F9` | manual trickshot right now |
 | `F7` | open / close the log window |
-| `F6` | print a full state dump to the log |
+| `F6` | dump full state to the log |
 
 All rebindable in **SETTINGS → KEYBINDS**.
 
 ---
 
-## Notes
+## 📝 Notes
 
-- Casino cheat options (**always win roulette**, **forced slot rarity**, **free spins**) are **host-side**: they work in single player and in your own co-op lobby, and everyone in the lobby sees the result.
-- The roulette landing predictor works from the moment you stand by the table; bets lock before the spin, so there is no fair pre-bet read — that is exactly what *Always Win Roulette* is for.
+- Casino cheats (**Always Win Roulette**, **Force Rarity**, **Free Spins**) are **host-side**: they work in single player and in your own co-op lobby — and everyone in the lobby sees the result.
+- The roulette predictor reads the exact slot the ball sits on; the same value the server finalizes when the spin ends.
+- The trickshot never fires while you are reeling in a fish.
 
 ---
 
-## Building from source
+## 🔧 Building from source
 
 - Target framework: `netstandard2.1`
 - Requires references to the game's managed assemblies (`Assembly-CSharp.dll`) and the BepInEx core assemblies.
@@ -107,10 +124,8 @@ All rebindable in **SETTINGS → KEYBINDS**.
 dotnet build -c Release
 ```
 
-Output goes to `BepInEx\plugins\TrickshotMenu\TrickshotMenu.dll` relative to the project.
-
 ---
 
-## Disclaimer
+## 📄 License & legal
 
-Unofficial fan project. Not affiliated with the developers of How to Fish. Use at your own risk — modifies memory of the game process while it runs.
+[MIT](LICENSE) — free to use, modify, and share. Unofficial fan project; not affiliated with the developers of _How to Fish_. Use at your own risk.
