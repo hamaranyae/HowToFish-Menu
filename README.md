@@ -17,7 +17,7 @@
 
 **Trickshot Menu** is an in-game mod for **_How to Fish_** that automates the 360° trickshot system, chases every bonus multiplier, tracks your session, and adds casino cheats — a live roulette landing predictor, an always-win table, and a weapon-skin slot machine that spits out rare and legendary skins.
 
-Want an "aimbot + casino helper" style mod for How to Fish? This is it. Every feature is toggleable, fully rebindable, and explained by an in-game guide.
+Want an "aimbot + casino helper" style training tool / cheat menu for How to Fish? This is it. Every feature is toggleable, fully rebindable, and explained by an in-game guide. Most options work in single player and co-op lobbies; the casino helpers are host-side only.
 
 ---
 
